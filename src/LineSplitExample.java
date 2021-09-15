@@ -15,6 +15,7 @@ public class LineSplitExample {
             studentNames.add(splitLine[0]);
             var jerseyNum = Integer.parseInt(splitLine[1]);
             jerseyNumbers.add(jerseyNum);
+            //.add is like .append in python
         }
         for (int i = 0; i< studentNames.size(); i++){
             //i is a new variable used to count
