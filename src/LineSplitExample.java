@@ -14,6 +14,11 @@ public class LineSplitExample {
             var splitLine = line.split(",");
             studentNames.add(splitLine[0]);
             var jerseyNum = Integer.parseInt(splitLine[1]);
+            jerseyNumbers.add(jerseyNum);
+        }
+        for (int i = 0; i< studentNames.size(); i++){
+            //i is a new variable used to count
+            System.out.println("Student: "+studentNames.get(i) + " Jersey Number: "+jerseyNumbers.get(i));
         }
 
     }
